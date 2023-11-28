@@ -10,9 +10,9 @@ inputs:
   replace:
     description: "value to replace with"
     required: true
-  substring:
+  newvalue:
     description: "substring in value to replace (optional)"
     required: true
 runs:
-  using: "node12"
+  using: "node16"
   main: "index.js"
