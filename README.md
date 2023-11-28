@@ -9,7 +9,7 @@ Sample replace action
   uses: EssVisionAB/xml-replace-action@v0.1
   with:
     filepath: "config-file.xml"
-    xpath: "//configuration/server/url/text()"
+    xpath: "//configuration/server/url"
     replace: "testserver"
-    substring: "localhost" (optional)
+    newvalue: "localhost" (optional, when used replace targets string)
 ```
