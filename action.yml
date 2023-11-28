@@ -1,15 +1,18 @@
-name: 'xml-replace-action'
-description: 'Replaces the text in an xml file using xpath'
+name: "xml-replace-action"
+description: "Replaces the text in an xml file using xpath"
 inputs:
   filepath:
-    description: 'path in filesystem to xml file'
+    description: "path in filesystem to xml file"
     required: true
   xpath:
-    description: 'Xpath to use when getting nodes'
+    description: "Xpath to use when getting nodes"
     required: true
   replace:
-    description: 'value to replace with'
+    description: "value to replace with"
+    required: true
+  substring:
+    description: "substring in value to replace (optional)"
     required: true
 runs:
-  using: 'node12'
-  main: 'index.js'
+  using: "node12"
+  main: "index.js"
