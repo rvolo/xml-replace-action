@@ -12,7 +12,6 @@ inputs:
     required: true
   newvalue:
     description: "substring in value to replace (optional)"
-    required: true
 runs:
   using: "node16"
   main: "index.js"
