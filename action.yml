@@ -13,5 +13,5 @@ inputs:
   newvalue:
     description: "substring in value to replace (optional)"
 runs:
-  using: "node16"
+  using: "node20"
   main: "index.js"

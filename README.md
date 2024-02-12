@@ -6,7 +6,7 @@ Sample replace action
 
 ```yaml
 - name: Set logback env values
-  uses: EssVisionAB/xml-replace-action@v0.1
+  uses: EssVisionAB/xml-replace-action@v1
   with:
     filepath: "config-file.xml"
     xpath: "//configuration/server/url"
